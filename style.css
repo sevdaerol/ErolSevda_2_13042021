@@ -1,6 +1,5 @@
 h1
 {
-    height: 55%;
     width: 100;
 }
 #bloc_page
@@ -44,7 +43,7 @@ nav menu /*placer menu*/
     list-style-type: none;
     display: flex;
     padding-right: 50px;
-    color: #0065fc;
+    color: black;
     text-align: right;
     font-size: 100%;
 }
@@ -52,7 +51,7 @@ nav ul/* type menu*/
 {
     list-style-type: none;
     display: flex;
-    color: #0065fc;
+    color: black;
     text-align: right;
     font-size: 1em;
 }
@@ -67,16 +66,13 @@ nav a
     font-size: 1.5em;
     padding-bottom: 5px;
     text-decoration: none;
+    color: black;
 }
-a
-{
-    text-decoration: none;
-    color: #0065fc;
-}
-#filtres:hover 
+a :hover
 {
     color: #0065fc;
     font-weight: bold;
+    text-decoration: underline;
 }
 nav filtres
 {
@@ -96,22 +92,19 @@ nav filtres
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
-    height: 500px;
-    width: 700px;
+    height: 500%;
+    width: 100%;
     border: 1px transparent;
     border-radius: 3%;
     background-color: #F2F2F2;
-
 }
 #element1
 {
-    width: 50px;
-    height: 50px;
-    border: 2px solid red;
+    width: 31%;
+    height: 31%;
+    
 }
 #conteneur2
 {
@@ -127,28 +120,17 @@ nav filtres
     background-color: #f2f2f2F2;
 
 }
-section
-{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-}
+
 aside
 {
     margin: auto;
 }
 article
 {
-    margin: auto;
-    flex: 3;
+    margin-right: 1rem;
+    width: 100%;
 }
-section
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: auto;
-}
+
 #conteneur3
 {
     display: flex;
