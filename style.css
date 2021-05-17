@@ -111,23 +111,28 @@ nav li /*placement puces*/
 /*SECTION ARTICLE/ASIDE*/
 /*article*/
 
-#hebergements
+.conteneur_section
 {
-    width: 65%;
-
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    justify-content: space-between;
+    margin: 6px;
+    border: solid red;
 }
+
 h2
 {
-    width: 100%;
+    height: 10%;
+    margin: 6px;
+    flex-direction: row;
 }
 .conteneur_hebergements
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 3%;
-    align-items: center;
-    width: 100%;
+    flex-wrap: nowrap;
+    width: 80%;
+    height: 100%;
     border: 1px transparent;
     border-radius: 3%;
     background-color: #f2f2f2;
@@ -135,16 +140,17 @@ h2
 .element_hebergements
 {
     flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: space-evenly;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px #a7a1a1;
-    border-color: black;
     border-radius: 1.25rem;
     border: transparent;
     background-color: white;
     width: 31%;
-    padding: 6px;
+    height: 45%;
     margin: 6px;
+    padding: 6px;
     cursor: pointer;
     
 }
@@ -169,20 +175,14 @@ h2
 
 /*aside*/
 
-.sidebar
-{
-    flex: none;
-    width: 350px;
-    height: 500px;
-    margin-left: 700px;
-    padding: 3%;
-}
+
 .conteneur_populaires
 {
     width: 100%;
+    height: 100%;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     background-color: #F2F2F2;
     border: 1px transparent;
@@ -203,8 +203,8 @@ h2
     background-color: white;
     width: 85%;
     height: 20%;
-    padding: 6px;
     margin: 6px;
+    padding: 6px;
     cursor: pointer;
 }
 
