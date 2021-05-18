@@ -9,10 +9,10 @@
 <body>
     <div id="bloc page">
         <header>
-            <div id="logo">
+            <div class="logo">
                 <img src="images/Reservia.svg" alt="Logo Reservia" />
-                </div>
-                <nav id="menu">
+            </div>
+                <nav class="menu">
                     <ul class="menus">
                         <li><a href="#hébergements">Hébergements</a></li>
                         <li><a href="#activités">Activités</a></li>
@@ -20,7 +20,7 @@
                     </ul>
                 </nav>
         </header>
-        <div id="soustitres">
+        <div class="soustitres">
             <h3>Trouvez votre hébergement pour des vacances de rêves</h3><br/>
             <p>En plein centre ville ou en plein nature</p>
         </div>
@@ -35,16 +35,18 @@
          <!--FILTERS-->
 
         <nav>
-            <p>Filtres</p>
-            <div class="filtres_icons">
-                <a href="#"><i class="fas fa-money-bill-wave"></i>Économique</a>
-                <a href="#"><i class="fas fa-child"></i>Familial</a>
-                <a href="#"><i class="fas fa-heart"></i>Romantique</a>
-                <a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a>
-            </div>
+            <div class="filtres">
+                <p>Filtres</p>
+                    <div class="filtres_icons">
+                        <div class="economique"><a href="#"><div class="money"></div><i class="fas fa-money-bill-wave"></i>Économique</a></div>
+                        <div class="familial"><a href="#"><div class="child"></div><i class="fas fa-child"></i>Familial</a></div>
+                        <div class="romantique"><a href="#"><div class="heart"></div><i class="fas fa-heart"></i>Romantique</a></div>
+                        <div class="animaux"><a href="#"><div class="dog"></div><i class="fas fa-dog"></i>Animaux autorisés</a></div>
+                    </div>
+            </div>        
             <div class="resultats">
-                <i class="fas fa-info"></i> 
-                <p class="resultatssearch">Plus de 500 logements sont disponible dans cette ville</p>
+                <div class="resultats_icon"><i class="fas fa-info"></i> </div>
+               <div><p class="resultatssearch">Plus de 500 logements sont disponible dans cette ville</p>
             </div>
             
         </nav>

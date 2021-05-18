@@ -17,18 +17,57 @@ header
     justify-content: space-between;
     align-items: flex-end;
 }
-#logo
+.logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    margin-top: 30px;
 }
 #logo img
 {
     width: 65px;
     height: 65px;
 }
-#soustitres h3
+
+nav menu /*menu principal*/
+{
+    list-style-type: none;
+    display: flex;
+    padding-right: 50px;
+    padding-top: 40px;
+    margin-top: 30px;
+    color: tomato;
+    text-align: right;
+    font-size: 100%;
+    text-decoration: none;
+}
+.menus :hover
+{
+    color: #0065fc;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    color: black;
+    text-align: right;
+    justify-content: space-between;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+nav li 
+{
+    margin-right: 15px;
+    justify-content: space-between;
+    
+}
+
+.soustitres h3
 {
     margin-top: 10px;
 }
@@ -42,57 +81,50 @@ form p
     border-radius: 10%;
     background-color: #F2F2F2; 
 }
-menu /*menu principal*/
-{
-    list-style-type: none;
-    display: flex;
-    padding-right: 50px;
-    color: black;
-    text-align: right;
-    font-size: 100%;
-}
-.menus :hover
-{
-    color: #0065fc;
-    font-weight: bold;
-    text-decoration: overline;
-    
-}
-
-nav ul/* type menu*/
-{
-    list-style-type: none;
-    display: flex;
-    color: black;
-    text-align: right;
-    justify-content: space-between;
-    font-size: 1em;
-}
-
-nav li /*placement puces*/
-{
-    margin-right: 15px;
-    justify-content: space-between;
-    
-}
 
 /*FILTRES*/
+.filtres
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+}
 .filtres_icons
 {
     list-style-type: none;
     display: flex;
     padding-right: 50px;
     font-size: 1.5em;
-    padding: 5px;
+    
     text-decoration: none;
+    justify-content: center;
+}
+.economique, .familial, .romantique, .animaux
+{
+    
+    width: fit-content;
+    height: 3rem;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     border: 1px solid grey;
     border-radius: 15rem;
-
 }
-.fas fa-money-bill-wave
+.money, .child, .heart, .dog
 {
-border: 1px solid grey;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
     border-radius: 15rem;
+    background-color: #deebff;
+
 }
 
 .filtres_icons :hover
@@ -104,6 +136,18 @@ border: 1px solid grey;
 .resultats
 {
     display: flex;
+    align-items: center;
+}
+
+.resultats_icon
+{
+    height: 2rem;
+    width: 2rem;
+    display: flex; 
+    border: 1px solid grey;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .fa-info
 {
@@ -113,6 +157,7 @@ border: 1px solid grey;
 .resultatssearch
 {
     font-size: 1em;
+    justify-content: space-between;
 }
 
 /*SECTION ARTICLE/ASIDE*/
@@ -125,6 +170,7 @@ border: 1px solid grey;
     height: 35rem;
     justify-content: space-between;
     margin: 6px;
+    padding: 6px;
     border: solid red;
 }
 
@@ -138,15 +184,16 @@ h2
 {
     display: flex;
     flex-wrap: nowrap;
-    width: 80%;
+    width: 75%;
     height: 100%;
+    padding-right: 32px;
     border: 1px transparent;
     border-radius: 3%;
     background-color: #f2f2f2;
 }
 .element_hebergements
 {
-    flex-wrap: nowrap;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     box-sizing: border-box;
@@ -188,7 +235,7 @@ h2
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: nowrap;
+    
     flex-direction: column;
     align-items: center;
     background-color: #F2F2F2;
