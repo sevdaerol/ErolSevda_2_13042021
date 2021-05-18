@@ -85,7 +85,14 @@ nav li /*placement puces*/
     font-size: 1.5em;
     padding: 5px;
     text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 15rem;
 
+}
+.fas fa-money-bill-wave
+{
+border: 1px solid grey;
+    border-radius: 15rem;
 }
 
 .filtres_icons :hover
