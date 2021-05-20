@@ -12,11 +12,11 @@
             <div class="logo">
                 <img src="images/Reservia.svg" alt="Logo Reservia" />
             </div>
-                <nav class="menu">
-                    <ul class="menus">
+                <nav class="menu_principal">
+                    <ul class="menu">
                         <li><a href="#hébergements">Hébergements</a></li>
                         <li><a href="#activités">Activités</a></li>
-                        <li><a href="#"><strong>S'inscrire</strong></a></li>
+                        <li><a href="#"><strong class="sinscrire">S'inscrire</strong></a></li>
                     </ul>
                 </nav>
         </header>
@@ -35,9 +35,9 @@
          <!--FILTERS-->
 
         <nav>
-            <div class="filtres">
+            <div class="section_filtres">
                 <p>Filtres</p>
-                    <div class="filtres_icons">
+                    <div class="filtres">
                         <div class="economique"><a href="#"><div class="money"></div><i class="fas fa-money-bill-wave"></i>Économique</a></div>
                         <div class="familial"><a href="#"><div class="child"></div><i class="fas fa-child"></i>Familial</a></div>
                         <div class="romantique"><a href="#"><div class="heart"></div><i class="fas fa-heart"></i>Romantique</a></div>
@@ -156,7 +156,7 @@
             <!--ASIDE-->
             <aside>
                 <div class="conteneur_populaires">
-                    <h1>Les plus populaires</h1><i class="fas fa-chart-line"></i>
+                   <p class="titre_populaires"><h1>Les plus populaires</h1><i class="fas fa-chart-line"></i></p>
                     <div class="element_populaires">
                         <a href="#"></a>
                             <img src="images/hlsdm.jpg">
@@ -208,38 +208,53 @@
 
         <!--SECTION2-->
         
-        <section class="activitesamarseille">
+        <section class="conteneur_sectiondeux">
             <article>
-                <h1 id="activites">Activités à Marseille</h1> 
-                <div id="conteneur_activites"></div>
-                <div id="conteneur_activites"></div>
-                <div id="conteneur_activites"></div>
-                <div id="conteneur_activites"></div>
-                <div id="conteneur_activites"></div>
-                <div id="conteneur_activites"></div>
+                <div classe="titre_activites"><h1>Activités à Marseille</h1></div>
+                    <div class="elements_activites">
+
+                    <div class="vp"></div>
+                    <div class="conteneur_fdpidf">
+                        <div class="fdp"></div>
+                        <div class="idf"></div>
+                    </div>
+                    <div class="pndc"></div>
+                    <div class="conteneur_nddlgpl">
+                        <div class="nddlg"></div>
+                        <div class="pl"></div>
+                    </div>
+
+                    </div>
+
+                </div>
             </article>
  
         </section>
 
     <!--FOOTER-->
         <footer>
-            <div id="apropos">
-                <h1>A propos</h1>
-                <ul id="about">
+            <div class="apropos">
+                <h1 class="apropos_titre">A propos</h1>
+                <ul class="ul">
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions général de vente</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
-                <h1>Nos hébergements</h1>
-                <ul id="logement">
+            </div>
+            <div class="logement">
+                <h1 class="logement_titre">Nos hébergements</h1>
+                <ul class="ul">
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
-                <h1>Assitance</h1>
-                <ul id="help">
-                    <li><a href="#">Centre d'aide</a></li>
-                    <li><a href="#">Nous contacter</a></li>
-                </ul>
+            </div>
+            <div class="help">
+                <h1 class="help_titre">Assitance</h1>
+                   <ul class="ul">
+                       <li><a href="#">Centre d'aide</a></li>
+                       <li><a href="#">Nous contacter</a></li>
+                   </ul>
+            </div>
             </div>
 
         </footer>
