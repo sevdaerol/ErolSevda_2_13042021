@@ -141,7 +141,7 @@ p
 {
     color: #0065fc;
 }
-.filtres_icons :hover
+.filtres :hover
 {
     color: #0065fc;
     font-weight: bold;   
@@ -309,14 +309,42 @@ h3
 .elements_activites
 {
     display: flex;
-    width: 500%;
+    flex-direction: row;
     height: 80%;
 }
+.elements_activites img 
+{
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+.dernier
+{
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+.troisieme
+{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+h3
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .vp
 {
     display: flex;
     flex-wrap: wrap;
-    width: 125%;
+    
     border: solid 1px black;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
@@ -327,11 +355,11 @@ h3
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    width: 125%;
+    
     border: solid 1px red;
     box-sizing: border-box;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
 .fdp
 {
@@ -359,7 +387,7 @@ h3
 .pndc
 {
     flex-wrap: wrap;
-    width: 125%;
+    
     border: solid 1px black;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
@@ -369,9 +397,9 @@ h3
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    width: 125%;
+    
     border: solid 1px red;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 .nddlg
 {
@@ -379,9 +407,10 @@ h3
     flex-wrap: wrap;
     border: solid 1px black;
     width: 100%;
-    height: 50%;
+    height: 45%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
+    margin-bottom: 35px;
 }
 .pl
 {
@@ -389,7 +418,7 @@ h3
     flex-wrap: wrap;
     border: solid 1px black;
     width: 100%;
-    height: 50%;
+    height: 46%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
 }
