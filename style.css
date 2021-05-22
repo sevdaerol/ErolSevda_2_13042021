@@ -38,29 +38,31 @@ header
 {
     display: flex;
     width: 65%;
-    border-top: 2px solid transparent;
-    
 }
 .hebergement_menu
 {
     display: flex;
     margin-right:35px;
-    margin-top: 40px;
+    height: 100%;
+    padding-top: 10%;
+    border-top: 2px solid transparent;
 }
 .activites_menu
 {
     display: flex;
     margin-right: 35px;
-    margin-top: 40px;
     margin-left: 35px;
+    padding-top: 10%;
+    border-top: 2px solid transparent;
     
 }
 .sinscrire_menu
 {
     display: flex;
-    margin-top: 40px;
     margin-left: 35px;
     margin-right: 10px;
+    padding-top: 10%;
+    border-top: 2px solid transparent;
 }
 a 
 {
@@ -153,6 +155,7 @@ p
     text-decoration: none;
     justify-content: center;
     object-fit: cover;
+    align-items: center;
 }
 .economique, .familial, .romantique, .animaux  /*bulle*/
 {
@@ -167,7 +170,8 @@ p
     border-radius: 15rem;
     object-fit: cover;
 }
-.money, .child, .heart, .dog   /*bulle icon*/
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
     display: flex;
     width: 3rem;
@@ -178,11 +182,9 @@ p
     border-radius: 15rem;
     background-color: #deebff;
     object-fit: cover;
-}
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
-{
     color: #0065fc;
 }
+
 .filtres :hover
 {
     color: #0065fc;
@@ -199,7 +201,8 @@ p
 {
     height: 2rem;
     width: 2rem;
-    margin-right: 7px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     display: flex; 
     border: 1px solid grey;
     border-radius: 100%;
@@ -215,6 +218,7 @@ p
 {
     font-size: 1em;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 /*SECTION ARTICLE/ASIDE*/
