@@ -14,33 +14,53 @@ h1
 header
 {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    width: 100%;
+    
 }
 .logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-right: 50%;
+    width: 40%;
 }
 #logo img
 {
     width: 65px;
     height: 65px;
+    align-items: center;
+    margin-bottom: 5%;
 }
- /*menu principal*/
 
 .menu_principal
 {
     display: flex;
+    width: 65%;
+    border-top: 2px solid transparent;
+    
 }
-
-.menu
+.hebergement_menu
 {
-    list-style-type: none;
     display: flex;
-    font-size: 1em;
+    margin-right:35px;
+    margin-top: 40px;
+}
+.activites_menu
+{
+    display: flex;
+    margin-right: 35px;
+    margin-top: 40px;
+    margin-left: 35px;
+    
+}
+.sinscrire_menu
+{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 35px;
+    margin-right: 10px;
 }
 a 
 {
@@ -48,27 +68,19 @@ a
     text-decoration: none;
 }
 
-.menu :hover
+.menu_principal :hover
 {
     color: #0065fc;
     font-weight: bold;
-    text-decoration: overline;
 }
 
-nav li 
-{
-    margin-right: 15px;
-    justify-content: space-between;
-    text-decoration: none;
-    
-}
 .sinscrire
 {
     color: #0065fc;
     font-weight: bold;
 }
 
-.soustitres h3
+.titre_soustitres
 {
     margin-top: 30px;
     margin-left: 1px;
@@ -80,15 +92,46 @@ p
     margin-top: 2px;
 
 }
+
+/*SEARCH*/
+
 form
 {
     display: flex;
-    justify-content: center;
-    height: 40px;
-    width: 350px;
-    border: 1px transparent;
-    border-radius: 10%;
-    background-color: #F2F2F2; 
+    width: 350px; 
+}
+.position i
+{
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+}
+.zonederecherche
+{
+    width: 240px;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+}
+.buttonrechercher
+{
+    padding: 16px;
+    border: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+.loupe
+{
+    display: none;
 }
 
 /*FILTRES*/
@@ -96,7 +139,6 @@ form
 {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
     width: 100%;
 }
 p
@@ -298,7 +340,7 @@ h3
     flex-wrap: wrap;
     width: 100%;
     height: 30rem;
-    border: solid red;
+    border: transparent;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -310,53 +352,70 @@ h3
 {
     display: flex;
     flex-direction: row;
-    height: 80%;
+    height: 65%;
+    width: 100%;
 }
+
 .elements_activites img 
 {
     width: 100%;
-    height: 125px;
     object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0 ;
+    border-radius: 1.25rem 1.25rem 0 0;
 }
-.dernier
+.imgvp
 {
-    width: 100%;
-    height: 125px;
-    object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0 ;
+    height: 348px;
 }
-.troisieme
+.imgfdp
 {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0 ;
+    height: 165px;
 }
-h3
+.imgidf
+{
+    height: 95px;
+}
+.imgpndc
+{
+    height: 348px;
+}
+.imgnddlg
+{
+    height: 135px;
+}
+.imgpl
+{
+    height: 132px;
+}
+
+h4
 {
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 1.2em;
+    justify-content: center;
 }
 
 .vp
 {
     display: flex;
     flex-wrap: wrap;
-    
-    border: solid 1px black;
+    height: 130%;
+    width: 65%;
+    border: transparent;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .conteneur_fdpidf
 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    
-    border: solid 1px red;
+    height: 130%;
+    width: 65%;
+    border: transparent;
     box-sizing: border-box;
     margin-right: 35px;
     margin-left: 35px;
@@ -365,62 +424,69 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px black;
+    border: transparent;
     width: 100%;
-    height: 50%;
+    height: 54%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
     box-sizing: border-box;
+    cursor: pointer; 
 }
 .idf
 {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px black;
+    border: transparent;
     width: 100%;
-    height: 35%;
+    height: 36%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
     box-sizing: border-box;
-    margin-top: 57px;
+    margin-top: 38px;
+    cursor: pointer;
 }
 .pndc
 {
     flex-wrap: wrap;
-    
-    border: solid 1px black;
+    height: 130%;
+    width: 65%;
+    border: transparent;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
+    cursor: pointer;
 }
 .conteneur_nddlgpl
 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    
-    border: solid 1px red;
+    height: 130%;
+    width: 65%;
+    border: transparent;
     margin-left: 35px;
 }
 .nddlg
 {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px black;
+    border: transparent;
     width: 100%;
     height: 45%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
-    margin-bottom: 35px;
+    margin-bottom: 38px;
+    cursor: pointer;
 }
 .pl
 {
     display: flex;
     flex-wrap: wrap;
-    border: solid 1px black;
+    border: transparent;
     width: 100%;
-    height: 46%;
+    height: 45%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
+    cursor: pointer;
 }
 
 /*FOOTER*/
