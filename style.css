@@ -1,11 +1,21 @@
+/*POLICES*/
+@font-face
+{
+    font-family: 'Raleway-Regular';
+    src:url(fonts/Raleway-Regular.ttf)
+}
+@font-face
+{
+    font-family: 'Raleway-Bold';
+    src:url(fonts/Raleway-Bold.ttf)
+}
+
+
 /*HEADER*/
 * {
     box-sizing: border-box;
 }
-h1
-{
-    width: 100;
-}
+
 #bloc_page
 {
     width: 100%;
@@ -38,6 +48,7 @@ header
 {
     display: flex;
     width: 65%;
+    font-family: 'Raleway-regular', sans-serif;
 }
 .hebergement_menu
 {
@@ -81,18 +92,23 @@ a
     color: #0065fc;
     font-weight: bold;
 }
+.soustitres
+{
+    height: 10%;
+}
 
 .titre_soustitres
 {
     margin-top: 30px;
     margin-left: 1px;
+    font-family: 'Raleway-Bold', sans-serif;
     font-weight: bold;
 }
 p
 {
     margin-left: 1px;
     margin-top: 2px;
-
+    font-family: 'Raleway-regular', sans-serif;
 }
 
 /*SEARCH*/
@@ -119,6 +135,8 @@ form
     padding-bottom: 16px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
+    color: black;
+    font-family: 'Raleway-Bold',sans-serif;
 }
 .buttonrechercher
 {
@@ -129,7 +147,7 @@ form
     background-color: #0065FC;
     font-size: 20px;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
 }
 .loupe
 {
@@ -143,9 +161,10 @@ form
     align-items: center;
     width: 100%;
 }
-p
+.pfiltres
 {
     font-weight: bold;
+    font-family: 'Raleway-bold', sans-serif;
 }
 .filtres
 {
@@ -156,6 +175,8 @@ p
     justify-content: center;
     object-fit: cover;
     align-items: center;
+    font-family: 'Raleway-bold';
+
 }
 .economique, .familial, .romantique, .animaux  /*bulle*/
 {
@@ -253,6 +274,7 @@ p
     margin-top: 2%;
     margin-left: 30px;
     align-items: center;
+    font-family: 'Raleway-bold', sans-serif;
 }
 .conteneur_hebergements
 {
@@ -293,12 +315,14 @@ h3
     height: 5%;
     margin: 6px;
     margin-left: 10px;
+    font-family: 'Raleway-bold', sans-serif;
 }
 
 .description
 {
     margin-left: 10px;
     margin-top: 7px;
+    font-family: 'Raleway-Regular', sans-serif;
 }
 
 .etoile
@@ -317,6 +341,7 @@ h3
 .soustitres_hebergement
 {
     margin-left: 20px;
+    font-family: 'Raleway-bold', sans-serif;
 }
 
 /*aside*/
@@ -344,6 +369,7 @@ h3
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    font-family: 'Raleway-bold', sans-serif;
 }
 .conteneur_populaires
 {
@@ -379,6 +405,7 @@ h3
     margin-left: 10px;
     margin-top: 45px;
     height: 20%;
+    font-family: 'Raleway-regular', sans-serif;
 }
 
 .etoile2
@@ -403,7 +430,13 @@ h3
 }
 .titre_activites
 {
+    width: 30%;
     font-weight: bold;
+}
+h1
+{
+    font-size: 1.3em;
+    font-family: 'Raleway-bold', sans-serif;
 }
 .elements_activites
 {
@@ -451,6 +484,7 @@ h4
     margin-bottom: 5%;
     font-size: 1.2em;
     justify-content: center;
+    font-family: 'Raleway-bold', sans-serif;
 }
 
 .vp
@@ -548,15 +582,6 @@ h4
 
 /*FOOTER*/
 
-footer ul
-{
-    font-size: 1em;
-}
-footer h1
-{
-    font-size: 1.3em;
-    width: 30%;
-}
 footer
 {
     display: flex;
@@ -572,8 +597,6 @@ footer
 {
     width: 30%;
     height: 25%;
-    
-    
 }
 .apropos_titre, .logement_titre, .help_titre
 {
@@ -582,9 +605,12 @@ footer
     padding-left: 10%;
     width: 70%;
     height: 11%;
+    font-family: 'Raleway-bold', sans-serif;
 }
 .ul
 {
     list-style-type: none;
     align-items: center;
+    font-size: 1em;
+    font-family: 'Raleway-regular', sans-serif;
 }
