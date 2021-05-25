@@ -174,7 +174,7 @@ form
     list-style-type: none;
     display: flex;
     font-size: 1em;
-    width: 100%;
+    width: 75%;
     text-decoration: none;
     object-fit: cover;
     justify-content: space-around;
@@ -185,13 +185,13 @@ form
     display: flex;
     width: fit-content;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
     border: 1px solid grey;
     border-radius: 15rem;
     height: 50px;
 }
-
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+.bulle_bleu
 {
     display: flex;
     width: 3rem;
@@ -204,11 +204,16 @@ form
     object-fit: cover;
     color: #0065fc;
 }
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    display: flex;
+    align-items: center;
+}
 .textefiltres
 {
     display: flex;
     font-family: 'Raleway-bold';
-    margin-top: 10%;
+    align-items: center;
 }
 
 .filtres :hover
