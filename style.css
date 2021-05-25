@@ -50,13 +50,12 @@ header
     width: 65%;
     font-family: 'Raleway-regular', sans-serif;
 }
-.hebergement_menu
+.hebergements_menu
 {
     display: flex;
     margin-right:35px;
     height: 100%;
     padding-top: 10%;
-    border-top: 2px solid transparent;
 }
 .activites_menu
 {
@@ -64,8 +63,6 @@ header
     margin-right: 35px;
     margin-left: 35px;
     padding-top: 10%;
-    border-top: 2px solid transparent;
-    
 }
 .sinscrire_menu
 {
@@ -73,18 +70,24 @@ header
     margin-left: 35px;
     margin-right: 10px;
     padding-top: 10%;
-    border-top: 2px solid transparent;
 }
-a 
+a
 {
     color: black;
     text-decoration: none;
 }
 
-.menu_principal :hover
+.activites_menu:hover
 {
     color: #0065fc;
     font-weight: bold;
+    border-top: 2px solid #0065fc;
+}
+.hebergements_menu:hover
+{
+    color: #0065fc;
+    font-weight: bold;
+    border-top: 2px solid #0065fc;
 }
 
 .sinscrire
@@ -170,28 +173,23 @@ form
 {
     list-style-type: none;
     display: flex;
-    font-size: 1.5em;
+    font-size: 1em;
     text-decoration: none;
     justify-content: center;
     object-fit: cover;
     align-items: center;
-    font-family: 'Raleway-bold';
-
 }
-.economique, .familial, .romantique, .animaux  /*bulle*/
+.bulle_filtres  /*bulle*/
 {
-    
+    display: flex;
     width: fit-content;
-    height: 3rem;
     margin: 3rem;
-    align-items: center;
     justify-content: center;
     cursor: pointer;
     border: 1px solid grey;
     border-radius: 15rem;
-    object-fit: cover;
+    height: 50px;
 }
-
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
 {
     display: flex;
@@ -204,6 +202,12 @@ form
     background-color: #deebff;
     object-fit: cover;
     color: #0065fc;
+}
+.textefiltres
+{
+    display: flex;
+    font-family: 'Raleway-bold';
+    margin-left: 30%;
 }
 
 .filtres :hover
