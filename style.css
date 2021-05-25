@@ -164,7 +164,7 @@ form
     align-items: center;
     width: 100%;
 }
-.pfiltres
+.titre_filtres
 {
     font-weight: bold;
     font-family: 'Raleway-bold', sans-serif;
@@ -177,6 +177,7 @@ form
     width: 100%;
     text-decoration: none;
     object-fit: cover;
+    justify-content: space-around;
     align-items: center;
 }
 .bulle_filtres  /*bulle*/
