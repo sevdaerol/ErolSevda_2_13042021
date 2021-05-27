@@ -10,6 +10,33 @@
     src:url(fonts/Raleway-Bold.ttf)
 }
 
+/*MEDIA-QUERIES*/
+
+@media only screen and (min-width: 768px) and (max-width: 1160px) 
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+
+    .menu_principal
+    {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 80px;
+    }
+    .section_filtres
+    {
+    
+    }
+    .filtres
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
 
 /*HEADER*/
 * {
@@ -25,7 +52,17 @@ header
 {
     display: flex;
     width: 100%;
+    height: 10%;
     
+}
+
+.menu_principal
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-family: 'Raleway-regular', sans-serif;
 }
 .logo
 {
@@ -33,7 +70,7 @@ header
     flex-direction: row;
     align-items: baseline;
     margin-top: 20px;
-    margin-right: 50%;
+    margin-right: 30%;
     width: 40%;
 }
 #logo img
@@ -43,33 +80,33 @@ header
     align-items: center;
     margin-bottom: 5%;
 }
-
-.menu_principal
-{
-    display: flex;
-    width: 65%;
-    font-family: 'Raleway-regular', sans-serif;
-}
 .hebergements_menu
 {
     display: flex;
-    margin-right:35px;
-    height: 100%;
-    padding-top: 10%;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 19%;
+    width: 100%;
+    justify-content: center;
+    
 }
 .activites_menu
 {
     display: flex;
-    margin-right: 35px;
-    margin-left: 35px;
-    padding-top: 10%;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 25%;
+    width: 100%;
+    justify-content: center;
 }
 .sinscrire_menu
 {
     display: flex;
-    margin-left: 35px;
+    margin-left: 10px;
     margin-right: 10px;
-    padding-top: 10%;
+    padding-top: 30px;
+    justify-content: flex-end;
+    width: 10%;
 }
 a
 {
@@ -141,6 +178,10 @@ form
     color: black;
     font-family: 'Raleway-Bold',sans-serif;
 }
+.zonederecherche:focus
+{
+    border: 1px solid #0065fc;
+}
 .buttonrechercher
 {
     padding: 16px;
@@ -189,7 +230,7 @@ form
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: 1px solid grey;
+    border: 2px solid #f2f2f2;
     border-radius: 15rem;
     height: 50px;
 }
@@ -220,9 +261,9 @@ form
 
 .bulle_filtres:hover
 {
-    color: #0065fc;
-    background-color: #f2f2f2;
-    font-weight: bold;   
+    color: #deebff;
+    background-color: #0065fc;
+    font-weight: bold; 
 }
 
 
@@ -316,6 +357,10 @@ form
     cursor: pointer;
     
 }
+.element_hebergements:hover
+{
+    Transform: scale(1.01);
+}
 .element_hebergements img
 {
     width: 100%;
@@ -404,6 +449,10 @@ h3
     margin-bottom: 10%;
     padding: 6px;
     cursor: pointer;
+}
+.element_populaires:hover
+{
+    Transform: scale(1.01);
 }
 .element_populaires img
 {
@@ -512,6 +561,10 @@ h4
     box-sizing: border-box;
     cursor: pointer;
 }
+.vp:hover
+{
+    Transform: scale(1.01);
+}
 .conteneur_fdpidf
 {
     flex-wrap: wrap;
@@ -536,6 +589,10 @@ h4
     box-sizing: border-box;
     cursor: pointer; 
 }
+.fdp:hover
+{
+    Transform: scale(1.01);
+}
 .idf
 {
     display: flex;
@@ -549,6 +606,10 @@ h4
     margin-top: 38px;
     cursor: pointer;
 }
+.idf:hover
+{
+    Transform: scale(1.01);
+}
 .pndc
 {
     flex-wrap: wrap;
@@ -558,6 +619,10 @@ h4
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
     cursor: pointer;
+}
+.pndc:hover
+{
+    Transform: scale(1.01);
 }
 .conteneur_nddlgpl
 {
@@ -581,6 +646,10 @@ h4
     margin-bottom: 38px;
     cursor: pointer;
 }
+.nddlg:hover
+{
+    Transform: scale(1.01);
+}
 .pl
 {
     display: flex;
@@ -591,6 +660,10 @@ h4
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
     cursor: pointer;
+}
+.pl:hover
+{
+    Transform: scale(1.01);
 }
 
 /*FOOTER*/
