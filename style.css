@@ -12,29 +12,69 @@
 
 /*MEDIA-QUERIES*/
 
-@media only screen and (min-width: 768px) and (max-width: 1160px) 
+@media screen and (max-width: 257px)
 {
     #bloc_page
     {
-        width: auto;
+        width: 100%;
+        height: auto;
     }
-
-    .menu_principal
+    header
     {
         display: flex;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-bottom: 80px;
+        width: 100%;
+        margin: 0%;
     }
+    .logo
+    {
+        display: flex;
+        margin: 0%;
+    }
+
+    .hebergements_menu, .activites_menu
+    {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0% 0% 0% 0%;
+        padding: 0%;
+    }
+    .hebergements_menu, .activites_menu:hover
+    {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .sinscrire_menu
+    {
+        position: absolute;
+    }
+
     .section_filtres
     {
-    
+        display: block;
+        padding: 0px;
+        width: auto
     }
+
     .filtres
+    {
+        margin: 5%;
+    }
+    .section_populaires
     {
         display: flex;
         flex-direction: column;
-        align-items: baseline;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px)
+{
+
 }
 
 
