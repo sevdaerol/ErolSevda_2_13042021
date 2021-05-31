@@ -1,0 +1,99 @@
+/*MEDIA-QUERIES */
+
+@media screen and (max-width: 1340px)
+{
+    h3 
+    {
+      font-size: 100%;   
+    }
+}
+@media screen and (max-width: 1207px)
+{
+    h3 
+    {
+        font-size: 85%;
+    }
+    h4 
+    {
+        font-size: 100%;
+    }
+    .apropos_titre, .logement_titre, .help_titre
+    {
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 1089px)
+{
+    .logo
+    {
+        margin-right: auto;
+    }
+    h3 
+    {
+        font-size: 75%;
+    }
+    .description
+    {
+        font-size: 85%;
+    }
+    .apropos_titre, .logement_titre, .help_titre
+    {
+        font-size: 100%;
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 980px)
+{
+    .logo
+    {
+        margin-right: auto;
+    }
+    .titre_soustitres
+    {
+        font-size: 110%;
+    }
+    .section_hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: space-between;
+    }
+    .section_populaires
+    {
+        margin-bottom: 5%;
+    }
+    .conteneur_populaires
+    {
+        padding-top: 0%;
+    }
+    .titre_populaires
+    {
+        margin-top: auto;
+    }
+    .element_populaires
+    {
+        margin-bottom: 4%;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: auto;
+    }
+    h3 
+    {
+        font-size: 115%;
+    }
+    .description2
+    {
+        font-size: 100%;
+    }
+
+    .hebergements 
+    {
+        width: auto;
+    }
+    .titre_hebergement 
+    {
+        margin: auto;
+        margin-left: 4%;
+    }
+}

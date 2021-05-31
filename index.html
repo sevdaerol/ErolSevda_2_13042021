@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/36ca87bfcc.js" crossorigin="anonymous"></script>
@@ -10,7 +11,6 @@
 </head>
 <!--HEADER-->
 <body>
-    <div id="bloc_page">
         <header>
             <div class="menu_principal">
                 <div class="logo"><img src="images/Reservia.svg" alt="Logo Reservia" /></div>
@@ -22,12 +22,13 @@
             </div>
         </header>
 
+        <div id="bloc_page">
         <div class="soustitres">
             <h3 class="titre_soustitres">Trouvez votre hébergement pour des vacances de rêves</h3><br/>
             <p>En plein centre ville ou en plein nature</p>
         </div>
         
-        <div class="FormNav">
+        
         <form method="post" action="traitement.php"><!--SEARCH-->
             <div class="position"><i class="fas fa-map-marker-alt"></i></div>
             <input class="zonederecherche" type="search" name="recherche" placeholder="Marseille, France">
@@ -52,7 +53,7 @@
                <div><p class="resultatssearch">Plus de 500 logements sont disponible dans cette ville</p>
             </div>
         </nav> 
-        </div>
+        
         
         <!--SECTION-->
         <section class="section_hebergements">
@@ -240,6 +241,7 @@
                 </div>
             </article>
         </section>
+        </div>
 
     <!--FOOTER-->
         <footer>
