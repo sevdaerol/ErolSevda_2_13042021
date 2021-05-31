@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/36ca87bfcc.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -12,8 +14,10 @@
         <header>
             <div class="menu_principal">
                 <div class="logo"><img src="images/Reservia.svg" alt="Logo Reservia" /></div>
+                <div class="HebActMenu">
                 <div><a href="#hebergements" class="hebergements_menu">Hébergements</a></div>
                 <div><a href="#activites" class="activites_menu">Activités</a></div>
+                </div>
                 <div class="sinscrire_menu"><a href="#"><strong class="sinscrire">S'inscrire</strong></a></div>
             </div>
         </header>
@@ -23,17 +27,17 @@
             <p>En plein centre ville ou en plein nature</p>
         </div>
         
-        <!--SEARCH-->
-        <form method="post" action="traitement.php">
+        <div class="FormNav">
+        <form method="post" action="traitement.php"><!--SEARCH-->
             <div class="position"><i class="fas fa-map-marker-alt"></i></div>
             <input class="zonederecherche" type="search" name="recherche" placeholder="Marseille, France">
+            <div class="bouton">
             <input class="buttonrechercher" type="submit" value="Rechercher">
             <button class="loupe"><i class="fas fa-search"></i></button>
+            </div>
          </form>
 
-         <!--FILTERS-->
-
-        <nav>
+        <nav><!--FILTERS-->
             <div class="section_filtres">
                 <div class="titre_filtres">Filtres</div>
                     <div class="filtres">
@@ -48,6 +52,7 @@
                <div><p class="resultatssearch">Plus de 500 logements sont disponible dans cette ville</p>
             </div>
         </nav> 
+        </div>
         
         <!--SECTION-->
         <section class="section_hebergements">
@@ -188,13 +193,13 @@
                                                  <i class="fas fa-star"></i>
                                             </div>
                                         </div>
-                            </div>
                     </div>
+                </div>
 
                     <div class="element_populaires">
                         <a href="#"></a>
-                        <img src="images/htbeb.jpg">
-                        <div><h3>Hôtel Tout bleu et Blanc</h3>
+                            <img src="images/htbeb.jpg">
+                            <div><h3>Hôtel Tout bleu et Blanc</h3>
                                     <div class="description2">Nuit à partir de 68<strong>€</strong></div>
                                         <div class="etoile2">
                                             <i class="fas fa-star"></i>
@@ -205,7 +210,7 @@
                                                 <i class="fas fa-star"></i>
                                             </div>
                                         </div>
-                        </div>
+                            </div>
                     </div>
 
                 </div>
@@ -220,22 +225,20 @@
                 <div classe="titre_activites"><h1>Activités à Marseille</h1></div>
                     <div class="elements_activites">
 
-                    <div class="vp"><a href="#"></a><img class="imgvp" src="images/vp.jpg"><h4>Vieux Port</h4></div>
-                    <div class="conteneur_fdpidf">
-                        <div class="fdp"><a href="#"></a><img class="imgfdp" src="images/fdp.jpg"><h4>Fort de Pomégues</h4></div>
-                        <div class="idf"><a href="#"></a><img class="imgidf" src="images/idf.jpg"><h4>Îles du Frioul</h4></div>
-                    </div>
-                    <div class="pndc"><a href="#"></a><img class="imgpndc" src="images/pndc.jpg"><h4>Parc National des Calanques</h4></div>
-                    <div class="conteneur_nddlgpl">
-                        <div class="nddlg"><a href="#"></a><img class="imgnddlg" src="images/nddlg.jpg"><h4>Notre-Dame-de-la-Garde</h4></div>
-                        <div class="pl"><a href="#"></a><img class="imgpl" src="images/pl.jpg"><h4>Parc Longchamp</h4></div>
-                    </div>
+                        <div class="vp"><a href="#"></a><img class="imgvp" src="images/vp.jpg"><h4>Vieux Port</h4></div>
+                        <div class="conteneur_fdpidf">
+                            <div class="fdp"><a href="#"></a><img class="imgfdp" src="images/fdp.jpg"><h4>Fort de Pomégues</h4></div>
+                            <div class="idf"><a href="#"></a><img class="imgidf" src="images/idf.jpg"><h4>Îles du Frioul</h4></div>
+                        </div>
+                        <div class="pndc"><a href="#"></a><img class="imgpndc" src="images/pndc.jpg"><h4>Parc National des Calanques</h4></div>
+                        <div class="conteneur_nddlgpl">
+                            <div class="nddlg"><a href="#"></a><img class="imgnddlg" src="images/nddlg.jpg"><h4>Notre-Dame-de-la-Garde</h4></div>
+                            <div class="pl"><a href="#"></a><img class="imgpl" src="images/pl.jpg"><h4>Parc Longchamp</h4></div>
+                        </div>
 
                     </div>
-
                 </div>
             </article>
- 
         </section>
 
     <!--FOOTER-->
@@ -263,9 +266,6 @@
                    </ul>
             </div>
             </div>
-
         </footer>
-
     </div>
-
 </body>

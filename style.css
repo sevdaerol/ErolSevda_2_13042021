@@ -12,8 +12,13 @@
 
 /*MEDIA-QUERIES*/
 
-@media screen and (max-width: 257px)
+@media screen and (max-width: 285px)
 {
+    body 
+    {
+        width: auto;
+        margin: 0px;
+    }
     #bloc_page
     {
         width: 100%;
@@ -22,22 +27,37 @@
     header
     {
         display: flex;
+        flex-direction: column;
         width: 100%;
         margin: 0%;
+        
     }
     .logo
     {
         display: flex;
         margin: 0%;
     }
-
-    .hebergements_menu, .activites_menu
+    .menu_principal
     {
         display: flex;
-        width: 100%;
+    }
+    .HebActMenu
+    {
+        display: flex;
+        position: absolute;
+        margin-top: 40%;
+        font-size: 100%;
+    }
+    .hebergements_menu
+    {
         height: auto;
-        margin: 0% 0% 0% 0%;
         padding: 0%;
+    }
+    .activites_menu
+    {
+        height: auto;
+        padding: 0%;
+        padding-left: 30%;
     }
     .hebergements_menu, .activites_menu:hover
     {
@@ -46,35 +66,100 @@
         margin-right: 5%;
         margin-left: 5%;
     }
-    .sinscrire_menu
+    .soustitres
     {
-        position: absolute;
+        margin-top: 30%;
+    }
+    .titre_soustitres
+    {
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+    .FormNav
+    {
+        width: 100%;
+    }
+
+    .buttonrechercher
+    {
+        display: none;
+    }
+    .loupe
+    {
+    display: block;
+    background-color: #0065fc;
+    }
+    form
+    {
+        display: flex;
+        width: 20%;
+        margin-top: 20%;
     }
 
     .section_filtres
     {
-        display: block;
+        flex-direction: column;
         padding: 0px;
-        width: auto
+        width: 100%;
+        margin: 0%;
+        align-items: flex-start;
     }
-
     .filtres
     {
+        flex-direction: column;
         margin: 5%;
+    }
+    .bulle_filtres
+    {
+        margin-left:0%;
     }
     .section_populaires
     {
         display: flex;
         flex-direction: column;
+        position: absolute;
+    }
+    
+
+    .section_hebergements
+    {
+        flex-direction: column;
+    }
+    .hebergements
+    {
+        margin-top: 200%;
+    }
+    .conteneur_hebergements
+    {
+        flex-direction: column;
+    }
+    .element_hebergements
+    {
+        width: 100%;
+    }
+    #activites
+    {
+        flex-direction: column;
+    }
+    footer
+    {
+        width: auto;
+        display: flex;
+       flex-direction: column;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 992px)
+@media screen and (min-width: 700px) and (max-width: 992px)
 {
-
-}
-@media screen and (min-width: 992px) and (max-width: 1200px)
-{
-
+    body 
+    {
+        width: auto;
+        margin: 0px;
+    }
+    #bloc_page
+    {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -120,11 +205,19 @@ header
     align-items: center;
     margin-bottom: 5%;
 }
+.HebActMenu
+{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .hebergements_menu
 {
     display: flex;
     margin-right: 30px;
-    margin-left: 30px;
     padding-top: 19%;
     width: 100%;
     justify-content: center;
@@ -134,7 +227,6 @@ header
 {
     display: flex;
     margin-right: 30px;
-    margin-left: 30px;
     padding-top: 25%;
     width: 100%;
     justify-content: center;
@@ -142,11 +234,11 @@ header
 .sinscrire_menu
 {
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
-    padding-top: 30px;
+    padding-top: 20px;
     justify-content: flex-end;
-    width: 10%;
+    width: 15%;
 }
 a
 {
@@ -236,6 +328,7 @@ form
 .loupe
 {
     display: none;
+    background-color: #0065fc;
 }
 
 /*FILTRES*/
