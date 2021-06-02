@@ -238,6 +238,8 @@ form
     display: flex;
     font-family: 'Raleway-bold';
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .bulle_filtres:hover
