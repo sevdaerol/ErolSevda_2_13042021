@@ -172,7 +172,12 @@ form
 .loupe
 {
     display: none;
-    background-color: #0065fc;
+    padding: 16px;
+    border: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    color: white;
 }
 
 /*FILTRES*/

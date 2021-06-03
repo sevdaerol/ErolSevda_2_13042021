@@ -227,10 +227,6 @@
         display: flex;
         flex-direction: column;
     }
-    h3 
-    {
-        font-size: 100%;
-    }
     .description2
     {
         margin-top: 10%;
@@ -238,6 +234,14 @@
     .etoile2
     {
         margin-top: 10%;
+    }
+    .hebergements 
+    {
+        background-color: transparent;
+    }
+    .titre_hebergement 
+    {
+        margin-left: 0%;
     }
     .conteneur_hebergements
     {
@@ -249,6 +253,7 @@
         width: 100%;
         flex-direction: column;
     }
+    
     h1 
     {
         font-size: x-large;
@@ -296,9 +301,128 @@
     }
 
 }
-@media screen and (max-width: 552px)
+@media screen and (max-width: 503px)
 {
+    #bloc_page
+    {
+        height: 700%;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+    .logo
+    {
+        display: flex;
+        margin: 0%;
+    }
+    .menu_principal
+    {
+        display: flex;
+    }
+    .sinscrire_menu
+    {
+        padding: 0%;
+        margin-left: auto;
+    }
+    .HebActMenu
+    {
+        display: flex;
+        position: absolute;
+        margin-top: 40%;
+        font-size: 100%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    form
+    {
+        width: auto;
+    }
+    .hebergements_menu, .activites_menu
+    {
+        height: auto;
+        padding: 0%;
+    }
+    .hebergements_menu, .activites_menu:hover
+    {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    .soustitres
+    {
+        margin-top: 20%;
+    }
+    .buttonrechercher
+    {
+        display: none;
+    }
+    .loupe
+    {
+    display: block;
+    height: 100%;
+    }
+    .section_populaires
+    {
+        border-radius: 0%;
+    }
+    h3 
+    {
+        font-size: small;
+    }
+    .description2
+    {
+        font-size: small;
+        margin-top: 10%;
+    }
+    .description
+    {
+        font-size: small;
+    }
+    .soustitres_hebergement
+    {
+        font-size: medium;
+    }
+    .pndc
+    {
+        margin-top: 11%;
+    }
+    .nddlg
+    {
+        margin-bottom: 0%;
+    }
 
+}
+@media screen and (max-width: 369px)
+{
+    form 
+    {
+        width: auto;
+    }
+    .filtres
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h1
+    {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .pndc
+    {
+        margin-top: 13%;
+    }
+    .nddlg
+    {
+        margin-bottom: 0%;
+    }
+    .apropos, .logement, .help
+    {
+        font-size: small;
+    }
 }
 
 
