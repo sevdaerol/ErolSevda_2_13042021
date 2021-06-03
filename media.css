@@ -1,6 +1,5 @@
 /*MEDIA-QUERIES */
 
-
 @media screen and (max-width: 1220px)
 {
     .logo
@@ -58,6 +57,10 @@
     {
         font-size: 110%;
     }
+    .filtres
+    {
+        width: 100%;
+    }
     .section_hebergements
     {
         display: flex;
@@ -73,8 +76,6 @@
     .conteneur_populaires
     {
         padding-top: 0%;
-        display: flex;
-        flex-direction: row;
         justify-content: center;
     }
     .titre_populaires
@@ -98,7 +99,7 @@
     .description2
     {
         font-size: 95%;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .etoile2
     {
@@ -148,9 +149,9 @@
         width: auto;
     }
    .sinscrire_menu
-   {
+    {
        position: relative;
-   }
+    }
     .HebActMenu
     {
         width: 50%;
@@ -177,10 +178,13 @@
         margin-left: 2%;
         font-size: 125%;
     }
+    .description2
+    {
+        margin-top: 10%;
+    }
     footer 
     {
-        height: auto;
-        
+        height: auto; 
     }
     .apropos, .logement, .help
     {
@@ -189,7 +193,6 @@
        width: auto;
        justify-content: flex-start;
        margin-left: 2%;
- 
     }
     .apropos_titre, .logement_titre, .help_titre
     {
@@ -202,30 +205,103 @@
     }
 }
 
-
-
-
 @media screen and (max-width: 782px)
 {
     /*hebergements  et filtres a rendre en ligne */
+    body 
+    {
+        height: 100%;
+        position: relative;
+    }
+    #bloc_page
+    {
+        height: 540%;
+    }
+    .soustitres
+    {
+        height: fit-content;
 
-    .elements_activites
+    }
+    .conteneur_populaires
     {
         display: flex;
         flex-direction: column;
-        height: 150%;
-        align-items: flex-start;
     }
-    .conteneur_fdpidf, .conteneur_nddlgpl, .pndc, .vp
-    {
-        margin: auto;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-    h4 
+    h3 
     {
         font-size: 100%;
     }
+    .description2
+    {
+        margin-top: 10%;
+    }
+    .etoile2
+    {
+        margin-top: 10%;
+    }
+    .conteneur_hebergements
+    {
+        flex-direction: column;
+        padding: 1%;
+    }
+    .element_hebergements
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    h1 
+    {
+        font-size: x-large;
+    }
+    h4 
+    {
+        font-size: large;
+        margin: 2%;
+    }
+    .elements_activites
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .conteneur_fdpidf, .conteneur_nddlgpl
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        margin-bottom: 20%;
+        justify-content: space-between;
+    }
+    .vp, .pndc, .fdp, .idf, .nddlg, .pl
+    {
+        width: 100%;
+        height: 60%;
+        margin-top: 5%;
+    }
+    .elements_activites img
+    {
+        
+        height: 70%;
+    }
+    footer
+    { 
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+    }
+    .apropos_titre, .logement_titre, .help_titre
+    {
+        font-size: x-large;
+        margin-bottom: 0%;
+    }
+
 }
+@media screen and (max-width: 552px)
+{
+
+}
+
+
 
 
