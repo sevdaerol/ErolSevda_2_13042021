@@ -3,11 +3,27 @@
 {
     h3 
     {
-        font-size: medium;
+        font-size: 90%;
     }
     h4 
     {
         font-size: medium;
+    }
+    header
+    {
+        height: auto;
+    }
+    .titre_soustitres
+    {
+        height: auto;
+    }
+    .element_populaires img 
+    {
+        width: 35%;
+    }
+    .description2
+    {
+        width: auto;
     }
 }
 
@@ -239,7 +255,7 @@
     }
     #bloc_page
     {
-     
+        position: relative;
     }
     .soustitres
     {
@@ -312,6 +328,7 @@
     }
     footer
     { 
+        position: absolute;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
