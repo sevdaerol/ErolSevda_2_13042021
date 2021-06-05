@@ -330,6 +330,7 @@
         height: 8%;
         margin-top: 5%;
     }
+
     .nddlg, .pl
     {
         margin-top: 5%;
@@ -443,6 +444,10 @@
     {
         font-size: small;
         margin-top: 10%;
+    }
+    .element_hebergements
+    {
+        flex-direction: column;
     }
     .description
     {
