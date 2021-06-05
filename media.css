@@ -16,6 +16,7 @@
     .titre_soustitres
     {
         height: auto;
+        font-size: large;
     }
     .element_populaires img 
     {
@@ -303,28 +304,40 @@
         font-size: large;
         margin: 2%;
     }
+    .conteneur_sectiondeux
+    {
+        height: auto;
+    }
+    #activites
+    {
+        width: 100%;
+    }
     .elements_activites
     {
         flex-direction: column;
         justify-content: space-between;
+        height: auto;
     }
     .conteneur_fdpidf, .conteneur_nddlgpl
     {
         width: 100%;
-        height: 100%;
         margin-left: 0%;
-        margin-bottom: 20%;
-        justify-content: space-between;
     }
-    .vp, .pndc, .fdp, .idf, .nddlg, .pl
+    .vp, .pndc
     {
         width: 100%;
-        height: 60%;
+        height: 8%;
         margin-top: 5%;
     }
-    .elements_activites img
+    .nddlg, .pl
     {
-        height: 70%;
+        margin-top: 5%;
+    }
+    .fdp, .idf
+    {
+        width: 100%;
+        height: 20%;
+        margin-top: 5%;
     }
     footer
     { 
@@ -421,6 +434,10 @@
     {
         font-size: small;
     }
+    .element_populaires img 
+    {
+        width: 35%;
+    }
     .description2
     {
         font-size: small;
@@ -433,6 +450,10 @@
     .soustitres_hebergement
     {
         font-size: medium;
+    }
+    .conteneur_sectiondeux
+    {
+        height: auto;
     }
     .pndc
     {
@@ -454,6 +475,10 @@
 }
 @media screen and (max-width: 369px)
 {
+    body 
+    {
+        width: 100%;
+    }
     form 
     {
         width: auto;
@@ -487,10 +512,14 @@
     {
         font-size: small;
     }
+    .element_populaires img 
+    {
+        width: 100%;
+    }
     .description2
     {
         font-size: small;
-        margin-top: 20%;
+        margin-top: 30%;
     }
     .pndc
     {
@@ -514,7 +543,102 @@
         height: auto;
     }
 }
+@media screen and (max-width: 311px)
+{
+    body 
+    {
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 248px)
+{
+    .zonederecherche
+    {
+        font-size: 65%;
+    }
+    .element_populaires img 
+    {
+        width: 100%;
+    }
+    .description2
+    {
+       margin-top: 30%;
+    }
+    .apropos_titre, .logement_titre, .help_titre
+    {
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 222px)
+{
+    .menu_principal
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sinscrire_menu
+    {
+        margin: 0%;
+        width: auto;
+    }
+    .HebActMenu
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 45%;
+    }
+    .hebergements_menu, .activites_menu
+    {
+        justify-content: flex-start;
+        margin-bottom: 5%;
+    }
+    .soustitres
+    {
+        font-size: small;
+        margin-top: 40%;
+    }
+   .zonederecherche
+    {
+        font-size: 40%;
+    }
+    .section_filtres
+    {
+        font-size: 80%;
+    }
+    .element_populaires
+    {
+        flex-direction: column;
+    }
+    .element_populaires img 
+    {
+        border-radius: 1.25rem 1.25rem 0 0;
+        height: 35%;
+    }
+    .description2
+    {
+        font-size: 70%;
+        margin-top: 15%;
+    }
+    .etoile2
+    {
+        margin-top: 0%;
+    }
+
+    h2
+    {
+        font-size: small;
+    }
+    h4 
+    {
+        font-size: small;
+    }
+    .apropos, .logement, .help
+    {
+        font-size: small;
+    }
+}
 
 
 
