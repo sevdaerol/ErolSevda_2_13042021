@@ -257,6 +257,7 @@
     #bloc_page
     {
         position: relative;
+        height: auto;
     }
     .soustitres
     {
@@ -475,10 +476,6 @@
 }
 @media screen and (max-width: 369px)
 {
-    body 
-    {
-        width: 100%;
-    }
     form 
     {
         width: auto;
@@ -512,14 +509,15 @@
     {
         font-size: small;
     }
-    .element_populaires img 
+    .titre_populaires
     {
-        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     .description2
     {
         font-size: small;
-        margin-top: 30%;
+        margin-top: 20%;
     }
     .pndc
     {
@@ -545,9 +543,9 @@
 }
 @media screen and (max-width: 311px)
 {
-    body 
+    h2 
     {
-        width: 100%;
+        font-size: large;
     }
 }
 
@@ -557,15 +555,15 @@
     {
         font-size: 65%;
     }
-    .element_populaires img 
-    {
-        width: 100%;
-    }
     .description2
     {
        margin-top: 30%;
     }
     .apropos_titre, .logement_titre, .help_titre
+    {
+        font-size: medium;
+    }
+    h2 
     {
         font-size: medium;
     }
@@ -607,6 +605,10 @@
     {
         font-size: 80%;
     }
+    .section_populaires
+    {
+        width: auto;
+    }
     .element_populaires
     {
         flex-direction: column;
@@ -615,7 +617,21 @@
     {
         border-radius: 1.25rem 1.25rem 0 0;
         height: 35%;
+        width: auto;
     }
+    .description
+    {
+        font-size: 70%;
+    }
+    .etoile 
+    {
+        width: 100%;
+    }
+    h3 
+    {
+        font-size: 50%;
+    }
+
     .description2
     {
         font-size: 70%;
