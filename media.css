@@ -305,10 +305,6 @@
         font-size: large;
         margin: 2%;
     }
-    .conteneur_sectiondeux
-    {
-        height: auto;
-    }
     #activites
     {
         width: 100%;
@@ -317,28 +313,33 @@
     {
         flex-direction: column;
         justify-content: space-between;
-        height: auto;
+        height: 100%;
+    }
+    .elements_activites img 
+    {
+       height: 75%;
     }
     .conteneur_fdpidf, .conteneur_nddlgpl
     {
         width: 100%;
         margin-left: 0%;
+        height: 100%;
     }
     .vp, .pndc
     {
         width: 100%;
-        height: 8%;
-        margin-top: 5%;
+        height: 30%;
     }
 
     .nddlg, .pl
     {
         margin-top: 5%;
+        height: 30%;
     }
     .fdp, .idf
     {
         width: 100%;
-        height: 20%;
+        height: 30%;
         margin-top: 5%;
     }
     footer
@@ -457,10 +458,6 @@
     {
         font-size: medium;
     }
-    .conteneur_sectiondeux
-    {
-        height: auto;
-    }
     .pndc
     {
         margin-top: 11%;
@@ -524,13 +521,15 @@
         font-size: small;
         margin-top: 20%;
     }
-    .pndc
+    h4 
     {
-        margin-top: 13%;
+        font-size: medium;
     }
-    .nddlg
+
+    .nddlg, .pl
     {
         margin-bottom: 0%;
+        height: 30%;
     }
     .apropos, .logement, .help
     {
@@ -571,6 +570,14 @@
     h2 
     {
         font-size: medium;
+    }
+    .nddlg, .pl 
+    {
+        height: 40%;
+    }
+    h4 
+    {
+        font-size: small;
     }
 }
 @media screen and (max-width: 222px)
