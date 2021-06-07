@@ -248,11 +248,11 @@
 
 @media screen and (max-width: 782px)
 {
-    /*hebergements  et filtres a rendre en ligne */
+
     body 
     {
         height: 100%;
-        position: relative;
+        position: relative; 
     }
     #bloc_page
     {
@@ -308,12 +308,12 @@
     #activites
     {
         width: 100%;
+        height: 100%;
     }
     .elements_activites
     {
         flex-direction: column;
         justify-content: space-between;
-        height: 100%;
     }
     .elements_activites img 
     {
