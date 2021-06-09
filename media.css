@@ -1,406 +1,152 @@
 /*MEDIA-QUERIES */
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 1155px)
 {
-    h3 
-    {
-        font-size: 90%;
-    }
-    h4 
-    {
-        font-size: medium;
-    }
-    header
-    {
-        height: auto;
-    }
-    .titre_soustitres
-    {
-        height: auto;
-        font-size: large;
-    }
-    .element_populaires img 
-    {
-        width: 35%;
-    }
-    .description2
-    {
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 1220px)
-{
-    body 
-    {
-        height: auto;
-    }
-    #bloc_page
-    {
-        height: auto;
-    }
-    header
-    {
-        height: auto;
-    }
-    .logo
-    {
-        margin-right: auto;
-    }
-    .titre_soustitres
-    {
-        font-size: 100%;
-        height: auto;
-    }
     h3 
     {
         font-size: 75%;
     }
-    h4 
-    {
-        font-size: 97%;
-    }
-    .description
-    {
-        font-size: 80%;
-    }
-    .description2
-    {
-        font-size: 80%;
-        margin-top: 15%;
-    }
-    .etoile2
-    {
-        margin-top: 15%;
-    }
-    .soustitres_hebergement
-    {
-        font-size: 125%;
-    }
-    .apropos, .logement, .help
-    {
-        justify-content: center;
-    }
-    .apropos_titre, .logement_titre, .help_titre
-    {
-        margin-left: 1%;
-        font-size: 100%;
-    }
-
-}
-
-@media screen and (max-width: 1020px)
-{
     .logo
     {
-        margin-right: auto;
+        margin: 0%;
+    }
+    .HebActMenu
+    {
+        flex-wrap: nowrap;
+        width: 40%;
+    }
+    .sinscrire_menu
+    {
+        margin-left: auto;
     }
     .titre_soustitres
     {
-        font-size: 110%;
+        font-size: 100%;
     }
     .filtres
     {
         width: 100%;
     }
-    .section_hebergements
-    {
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
-        justify-content: space-between;
-    }
-    .section_populaires
-    {
-        margin-bottom: 5%;
-        padding: 0%;
-    }
-    .conteneur_populaires
-    {
-        padding-top: 0%;
-        justify-content: center;
-    }
-    .titre_populaires
-    {
-        margin-top: auto;
-        margin-right: 2%;
-        margin-left: 2%;
-        width: auto;
-    }
-    .element_populaires
-    {
-        margin-bottom: 2%;
-        margin-left: 1%;
-        margin-right: 1%;
-        width: auto;
-    }
-    h3 
-    {
-        font-size: 100%;
-    }
-    .description2
-    {
-        font-size: 95%;
-        margin-top: 10%;
-    }
-    .etoile2
-    {
-        margin-top: 10%;
-    }
-    .hebergements 
-    {
-        width: auto;
-        padding: 0%;
-    }
-    .titre_hebergement 
-    {
-        margin: auto;
-        margin-left: 3%;
-    }
-    .conteneur_hebergements
-    {
-        padding: 0%;
-    }
-    .element_hebergements
-    {
-        margin-right: 0%;
-    }
-    .description
-    {
-        font-size:  100%;
-        margin-top: auto;
-    }
-    .soustitres_hebergement
-    {
-        margin-left: 2%;
-    }
-    h4 
+    .titre_hebergement, .titre_populaires
     {
         font-size: 80%;
     }
-    .apropos_titre, .logement_titre, .help_titre
+    .description, .description2
     {
-        margin-left: 3%;
+        font-size: 80%;
     }
-}
 
-@media screen and (max-width: 860px)
+}
+@media screen and (max-width: 865px)
 {
-    .logo
+    header
     {
-        width: auto;
+        flex-wrap: wrap;
     }
-   .sinscrire_menu
+    .menu_principal
     {
-       position: relative;
+        flex-wrap: wrap;
     }
     .HebActMenu
     {
-        width: 50%;
+        flex-wrap: wrap;
     }
     .section_filtres
     {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    .titre_filtres
-    {
-        margin: 1%;
-    }
     .filtres
     {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: flex-start;
     }
     .bulle_filtres
     {
-        margin-bottom: 2%;
-        margin-left: 2%;
-        font-size: 125%;
+        margin-right: 5%;
+        margin-top: 2%;
     }
-    .description2
+    .section_hebergements
     {
-        margin-top: 10%;
+        flex-direction: column-reverse;
     }
-    footer 
+    .populaires 
     {
-        height: auto; 
+        width: auto;
+        margin-bottom: 5%;
     }
-    .apropos, .logement, .help
+    .titre_populaires
     {
-       display: flex;
-       flex-wrap: wrap;
-       width: auto;
-       justify-content: flex-start;
-       margin-left: 2%;
-    }
-    .apropos_titre, .logement_titre, .help_titre
-    {
-        margin-left: 0%;
-        padding: 0%;
-    }
-    ul 
-    {
-        padding: 0%;
-    }
-}
-
-@media screen and (max-width: 782px)
-{
-
-    body 
-    {
-        height: 100%;
-        position: relative; 
-    }
-    #bloc_page
-    {
-        position: relative;
-        height: auto;
-    }
-    .soustitres
-    {
-        height: fit-content;
-
+        margin: auto;
     }
     .conteneur_populaires
     {
-        display: flex;
-        flex-direction: column;
+        flex-wrap: nowrap;
     }
-    .description2
+    .description_populaire
     {
-        margin-top: 10%;
+        font-size: 80%;
     }
-    .etoile2
+    .element_populaires
     {
-        margin-top: 10%;
+       margin: 2%;
     }
     .hebergements 
     {
-        background-color: transparent;
-    }
-    .titre_hebergement 
-    {
-        margin-left: 0%;
-    }
-    .conteneur_hebergements
-    {
-        flex-direction: column;
-        padding: 1%;
-    }
-    .element_hebergements
-    {
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    h1 
-    {
-        font-size: x-large;
+        margin: 0%;
     }
     h4 
     {
-        font-size: large;
-        margin: 2%;
+        font-size: small;
     }
-    #activites
+    footer 
     {
-        width: 100%;
-        height: 100%;
-    }
-    .elements_activites
-    {
-        flex-direction: column;
         justify-content: space-between;
     }
-    .elements_activites img 
+   .apropos, .logement, .help
     {
-       height: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: small;
     }
-    .conteneur_fdpidf, .conteneur_nddlgpl
-    {
-        width: 100%;
-        margin-left: 0%;
-        height: 100%;
-    }
-    .vp, .pndc
-    {
-        width: 100%;
-        height: 30%;
-    }
-
-    .nddlg, .pl
-    {
-        margin-top: 5%;
-        height: 30%;
-    }
-    .fdp, .idf
-    {
-        width: 100%;
-        height: 30%;
-        margin-top: 5%;
-    }
-    footer
-    { 
-        position: absolute;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        margin: auto;
-    }
-    .apropos_titre, .logement_titre, .help_titre
-    {
-        font-size: x-large;
-        margin-bottom: 0%;
-    }
-
 }
-@media screen and (max-width: 503px)
+@media screen and (max-width: 612px)
 {
-    #bloc_page
-    {
-        height: auto;
+
+
+
+   .menu_principal
+   {
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+   }
+   .logo
+   {
+       position: absolute;
+       display: flex;
+       justify-content: flex-start;
+       width: 100%;
+       margin-bottom: 8%;
+       margin-left: 2%;
     }
-    body 
+   
+    .buttonrechercher
     {
-        height: auto;
+        display: none;
     }
-    header
+    .loupe
     {
-        display: flex;
-        flex-direction: column;
+    display: block;
+    height: 100%;
+    }
+    .zonederecherche
+    {
         width: 100%;
-        margin: 0%;
-    }
-    .logo
-    {
-        display: flex;
-        margin: 0%;
-    }
-    .menu_principal
-    {
-        display: flex;
-    }
-    .sinscrire_menu
-    {
-        padding: 0%;
-        margin-left: auto;
+        font-size: small;
     }
     .HebActMenu
     {
         display: flex;
-        position: absolute;
-        margin-top: 40%;
-        font-size: 100%;
         width: 100%;
         justify-content: space-around;
-    }
-    .hebergements_menu, .activites_menu
-    {
-        height: auto;
-        padding: 0%;
     }
     .activites_menu:hover
     {
@@ -412,261 +158,86 @@
         border-bottom: 2px solid #0065FC;
         border-top: none;   
     }
-    .soustitres
-    {
-        margin-top: 20%;
-    }
-    form
-    {
-        width: auto;
-    }
-    .buttonrechercher
-    {
-        display: none;
-    }
-    .loupe
-    {
-    display: block;
-    height: 100%;
-    }
-    .section_populaires
-    {
-        border-radius: 0%;
-    }
-    h3 
-    {
-        font-size: small;
-    }
-    .element_populaires img 
-    {
-        width: 35%;
-    }
-    .description2
-    {
-        font-size: small;
-        margin-top: 10%;
-    }
-    .element_hebergements
+    .conteneur_populaires
     {
         flex-direction: column;
-    }
-    .description
-    {
-        font-size: small;
-    }
-    .soustitres_hebergement
-    {
-        font-size: medium;
-    }
-    .pndc
-    {
-        margin-top: 11%;
-    }
-    .nddlg
-    {
-        margin-bottom: 0%;
-    }
-    footer 
-    {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        margin: auto;
-        height: auto;
-    }
-
-}
-@media screen and (max-width: 369px)
-{
-    form 
-    {
-        width: auto;
-    }
-    .zonederecherche
-    {
-        width: 100%;
-        font-size: small;
-    }
-
-    .filtres
-    {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .textefiltres
-    {
-        font-size: small;
-    }
-    .resultatssearch
-    {
-        font-size: smaller;
-    }
-    h1
-    {
-        margin-top: 3%;
-        margin-bottom: 3%;
-        font-size: medium;
-    }
-    h3 
-    {
-        font-size: small;
-    }
-    .titre_populaires
-    {
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    .description2
-    {
-        font-size: small;
-        margin-top: 20%;
-    }
-    h4 
-    {
-        font-size: medium;
-    }
-
-    .nddlg, .pl
-    {
-        margin-bottom: 0%;
-        height: 30%;
-    }
-    .apropos, .logement, .help
-    {
-        font-size: small;
-    }
-    footer 
-    {
-         
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        margin: auto;
-        height: auto;
-    }
-}
-@media screen and (max-width: 311px)
-{
-    h2 
-    {
-        font-size: large;
-    }
-}
-
-@media screen and (max-width: 248px)
-{
-    .zonederecherche
-    {
-        font-size: 65%;
-    }
-    .description2
-    {
-       margin-top: 30%;
-    }
-    .apropos_titre, .logement_titre, .help_titre
-    {
-        font-size: medium;
-    }
-    h2 
-    {
-        font-size: medium;
-    }
-    .nddlg, .pl 
-    {
-        height: 40%;
-    }
-    h4 
-    {
-        font-size: small;
-    }
-}
-@media screen and (max-width: 222px)
-{
-    .menu_principal
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .sinscrire_menu
-    {
-        margin: 0%;
-        width: auto;
-    }
-    .HebActMenu
-    {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 45%;
-    }
-    .hebergements_menu, .activites_menu
-    {
-        justify-content: flex-start;
-        margin-bottom: 5%;
-    }
-    .soustitres
-    {
-        font-size: small;
-        margin-top: 40%;
-    }
-   .zonederecherche
-    {
-        font-size: 40%;
-    }
-    .section_filtres
-    {
-        font-size: 80%;
-    }
-    .section_populaires
-    {
-        width: auto;
     }
     .element_populaires
     {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .description_populaire
+    {
         flex-direction: column;
     }
-    .element_populaires img 
-    {
-        border-radius: 1.25rem 1.25rem 0 0;
-        height: 35%;
-        width: auto;
-    }
-    .description
-    {
-        font-size: 70%;
-    }
-    .etoile 
-    {
-        width: 100%;
-    }
-    h3 
-    {
-        font-size: 50%;
-    }
-
     .description2
     {
-        font-size: 70%;
-        margin-top: 15%;
+        margin-top: auto;
     }
-    .etoile2
+    .conteneur_hebergements
     {
-        margin-top: 0%;
+        flex-direction: column;
     }
-
-    h2
+    .titre_hebergement, .soustitres_hebergement
     {
-        font-size: small;
+        margin: 0%;
+    }
+    .hebergements
+    {
+        background-color: transparent;
+    }
+    .element_hebergements
+    {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .conteneur_sectiondeux
+    {
+        height: auto;
+    }
+    #activites
+    {
+        height: auto;
+    }
+    .elements_activites
+    {
+        flex-direction: column;
+    }
+    .imgvp, .imgpndc
+    {
+        height: 75%;
+    }
+    .vp, .pndc
+    {
+        width: auto;
+        height: 10%;
     }
     h4 
     {
-        font-size: small;
+        margin: 1%;
     }
-    .apropos, .logement, .help
+    .conteneur_fdpidf, .conteneur_nddlgpl
     {
-        font-size: small;
+        flex-wrap: nowrap;
+        width: auto;
+        height: 25%;
+        margin: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+    .fdp, .idf, .nddlg, .pl 
+    {
+        height: 40%;
+    }
+    .imgfdp, .imgidf, .imgnddlg, .imgpl
+    {
+        height: 75%;
+    }
+    footer 
+    {
+        flex-direction: column;
     }
 }
-
-
-

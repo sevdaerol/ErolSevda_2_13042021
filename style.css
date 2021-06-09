@@ -109,11 +109,6 @@ a
     font-weight: bold;
 }
 
-#bloc_page
-{
-    width: auto;
-}
-
 .titre_soustitres
 {
     margin-top: 30px;
@@ -133,7 +128,6 @@ p
 form
 {
     display: flex;
-    width: 350px; 
 }
 .position i
 {
@@ -536,6 +530,7 @@ h4
 }
 .conteneur_fdpidf
 {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
@@ -595,6 +590,7 @@ h4
 }
 .conteneur_nddlgpl
 {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
@@ -644,6 +640,7 @@ footer
     margin: 5px;
     border: 1px transparent;
     background-color: #f2f2f2F2;
+    padding: 2%;
 }
 .apropos, .logement, .help
 {
@@ -651,12 +648,12 @@ footer
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: flex-start;
 }
 .apropos_titre, .logement_titre, .help_titre
 {
     display: flex;
     align-items: center;
-    padding-left: 10%;
     font-family: 'Raleway-bold', sans-serif;
     font-size: 100%;
 }
@@ -665,4 +662,5 @@ footer
     list-style-type: none;
     align-items: center;
     font-family: 'Raleway-regular', sans-serif;
+    padding-left: 0%;
 }
