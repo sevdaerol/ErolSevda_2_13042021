@@ -15,23 +15,6 @@
 * {
     box-sizing: border-box;
 }
-body
-{
-    height: 100%;
-}
-#bloc_page
-{
-    height: 100%;
-}
-#activites 
-{
-    height: auto;
-}
-.LogoSinscrire
-{
-    width: auto;
-}
-
 
 header
 {

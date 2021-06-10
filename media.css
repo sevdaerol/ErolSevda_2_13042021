@@ -110,32 +110,38 @@
 }
 @media screen and (max-width: 612px)
 {
-
-    body 
+    .sinscrire_menu
+    {
+        padding: 0%;
+    }
+    .HebActMenu
+    {
+        display: flex;
+        position: absolute;
+        margin-top: 25%;
+        font-size: 100%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .hebergements_menu, .activites_menu
     {
         height: auto;
+        padding: 0%;
     }
-
-    #bloc_page
+    .activites_menu:hover
     {
-        height: auto;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;   
     }
-
-   .menu_principal
-   {
-       flex-wrap: wrap;
-       flex-direction: column-reverse;
-   }
-   .logo
-   {
-       position: absolute;
-       display: flex;
-       justify-content: flex-start;
-       width: 100%;
-       margin-bottom: 8%;
-       margin-left: 2%;
+    .hebergements_menu:hover
+    {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;   
     }
-   
+    .soustitres
+    {
+        margin-top: 20%;
+    }
     .buttonrechercher
     {
         display: none;
@@ -150,21 +156,9 @@
         width: 100%;
         font-size: small;
     }
-    .HebActMenu
+    .populaires 
     {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-    }
-    .activites_menu:hover
-    {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;   
-    }
-    .hebergements_menu:hover
-    {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;   
+        border-radius: 0%;
     }
     .conteneur_populaires
     {
@@ -173,6 +167,7 @@
     .element_populaires
     {
         width: 100%;
+        margin: 0%;
         margin-bottom: 5%;
     }
     .description_populaire
@@ -194,6 +189,7 @@
     .hebergements
     {
         background-color: transparent;
+        flex-direction: column;
     }
     .element_hebergements
     {
@@ -201,17 +197,10 @@
         height: auto;
         flex-direction: column;
     }
-    .conteneur_sectiondeux
-    {
-        height: auto;
-    }
-    #activites
-    {
-        height: auto;
-    }
     .elements_activites
     {
         flex-direction: column;
+        height: 100%;
     }
     .imgvp, .imgpndc
     {
