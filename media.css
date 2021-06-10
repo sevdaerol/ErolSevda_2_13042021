@@ -111,7 +111,15 @@
 @media screen and (max-width: 612px)
 {
 
+    body 
+    {
+        height: auto;
+    }
 
+    #bloc_page
+    {
+        height: auto;
+    }
 
    .menu_principal
    {
@@ -231,6 +239,8 @@
     .fdp, .idf, .nddlg, .pl 
     {
         height: 40%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .imgfdp, .imgidf, .imgnddlg, .imgpl
     {
