@@ -126,7 +126,6 @@
     .hebergements_menu, .activites_menu
     {
         height: auto;
-        padding: 0%;
     }
     .activites_menu:hover
     {
@@ -140,7 +139,7 @@
     }
     .soustitres
     {
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .buttonrechercher
     {
