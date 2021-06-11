@@ -148,7 +148,7 @@ form
     color: black;
     font-family: 'Raleway-Bold',sans-serif;
 }
-.zonederecherche:focus
+.zonederecherche :focus
 {
     border: 1px solid #0065fc;
 }
