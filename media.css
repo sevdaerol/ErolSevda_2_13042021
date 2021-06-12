@@ -1,6 +1,7 @@
 /*MEDIA-QUERIES */
 @media screen and (max-width: 1155px)
 {
+
     h3 
     {
         font-size: 75%;
@@ -110,6 +111,7 @@
 }
 @media screen and (max-width: 612px)
 {
+   
     .sinscrire_menu
     {
         padding: 0%;
