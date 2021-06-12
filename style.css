@@ -463,11 +463,14 @@ h2
 {
     font-family: 'Raleway-bold', sans-serif;
 }
+#activites
+{
+    height: auto;
+}
 .elements_activites
 {
     display: flex;
     flex-direction: row;
-    height: 65%;
     width: 100%;
 }
 
@@ -515,7 +518,6 @@ h4
 {
     display: flex;
     flex-wrap: wrap;
-    height: 130%;
     width: 65%;
     border: transparent;
     border-radius: 1.25rem;
@@ -533,7 +535,6 @@ h4
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    height: 130%;
     width: 65%;
     border: transparent;
     box-sizing: border-box;
@@ -576,7 +577,6 @@ h4
 .pndc
 {
     flex-wrap: wrap;
-    height: 130%;
     width: 65%;
     border: transparent;
     border-radius: 1.25rem;
@@ -593,7 +593,6 @@ h4
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    height: 130%;
     width: 65%;
     border: transparent;
     margin-left: 35px;
