@@ -124,6 +124,7 @@
         font-size: 100%;
         width: 100%;
         justify-content: space-around;
+        border-bottom: 2px solid #f2f2f2;
     }
     .hebergements_menu, .activites_menu
     {
@@ -143,7 +144,7 @@
     {
         margin-top: 20%;
     }
-    .buttonrechercher
+    .boutonrechercher
     {
         display: none;
     }
