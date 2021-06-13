@@ -126,19 +126,18 @@
         justify-content: space-around;
         border-bottom: 2px solid #f2f2f2;
     }
-    .hebergements_menu, .activites_menu
-    {
-        height: auto;
-    }
     .HebActMenu:hover
     {
-        border-bottom: 2px solid #0065FC 50%;
+        border-bottom: 2px solid #0065FC;
         border-top: none;   
     }
     .hebergements_menu:hover
     {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;   
+        border-top: none;
+    }
+    .activites_menu:hover
+    {
+        border-top: none;
     }
     .soustitres
     {
