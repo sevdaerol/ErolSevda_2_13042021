@@ -128,15 +128,16 @@
     }
     .HebActMenu:hover
     {
-        border-bottom: 2px solid #0065FC;
         border-top: none;   
     }
     .hebergements_menu:hover
     {
+        border-bottom: 2px solid #0065FC;
         border-top: none;
     }
     .activites_menu:hover
     {
+        border-bottom: 2px solid #0065FC;
         border-top: none;
     }
     .soustitres
