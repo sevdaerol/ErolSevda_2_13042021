@@ -28,7 +28,7 @@ header
     display: flex;
     width: 100%;
     height: 100%;
-    align-items: center;
+    align-items: flex-end;
     font-family: 'Raleway-regular', sans-serif;
 }
 .logo
@@ -50,34 +50,33 @@ header
 .HebActMenu
 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     width: 30%;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
+}
+.menu 
+{
+    width: 75%;
 }
 .hebergements_menu
 {
     display: flex;
-    padding-top: 19%;
+    padding-top: 20%;
     justify-content: center;
-    
 }
 .activites_menu
 {
     display: flex;
-    padding-top: 25%;
+    padding-top: 20%;
     justify-content: center;
 }
 .sinscrire_menu
 {
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 10px;
     padding-top: 20px;
     justify-content: flex-end;
-    width: 15%;
 }
 a
 {
@@ -437,6 +436,7 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
 }
 .description2
 {
@@ -478,14 +478,13 @@ h2
     flex-direction: row;
     width: 100%;
 }
-
 .elements_activites img 
 {
     width: 100%;
     object-fit: cover;
     border-radius: 1.25rem 1.25rem 0 0;
 }
-.imgvp
+.img_carteactivites
 {
     height: 348px;
 }
@@ -497,19 +496,10 @@ h2
 {
     height: 95px;
 }
-.imgpndc
-{
-    height: 348px;
-}
-.imgnddlg
+.img_carteactivites2
 {
     height: 135px;
 }
-.imgpl
-{
-    height: 132px;
-}
-
 h4
 {
     margin-left: 5%;
@@ -518,23 +508,7 @@ h4
     justify-content: center;
     font-family: 'Raleway-bold', sans-serif;
 }
-
-.vp
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 65%;
-    border: transparent;
-    border-radius: 1.25rem;
-    box-shadow: 0px 0px 10px #a7a1a1;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-.vp:hover
-{
-    Transform: scale(1.01);
-}
-.conteneur_fdpidf
+.conteneur_elements
 {
     display: flex;
     flex-wrap: wrap;
@@ -546,90 +520,29 @@ h4
     margin-right: 35px;
     margin-left: 35px;
 }
-.fdp
+.conteneur_elements2
 {
-    display: flex;
+    margin-right: 0%;
+}
+.carte_activites
+{
+    flex-wrap: wrap;
+    width: 65%;
+    border: transparent;
+    border-radius: 1.25rem;
+    box-shadow: 0px 0px 10px #a7a1a1;
+    cursor: pointer;
+}
+.carte_activites2
+{
     flex-wrap: wrap;
     border: transparent;
     width: 100%;
-    height: 54%;
     border-radius: 1.25rem;
     box-shadow: 0px 0px 10px #a7a1a1;
-    box-sizing: border-box;
     cursor: pointer; 
-    margin-bottom: 38px;
 }
-.fdp:hover
-{
-    Transform: scale(1.01);
-}
-.idf
-{
-    display: flex;
-    flex-wrap: wrap;
-    border: transparent;
-    width: 100%;
-    height: 36%;
-    border-radius: 1.25rem;
-    box-shadow: 0px 0px 10px #a7a1a1;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-.idf:hover
-{
-    Transform: scale(1.01);
-}
-.pndc
-{
-    flex-wrap: wrap;
-    width: 65%;
-    border: transparent;
-    border-radius: 1.25rem;
-    box-shadow: 0px 0px 10px #a7a1a1;
-    cursor: pointer;
-}
-.pndc:hover
-{
-    Transform: scale(1.01);
-}
-.conteneur_nddlgpl
-{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 65%;
-    border: transparent;
-    margin-left: 35px;
-}
-.nddlg
-{
-    display: flex;
-    flex-wrap: wrap;
-    border: transparent;
-    width: 100%;
-    height: 45%;
-    border-radius: 1.25rem;
-    box-shadow: 0px 0px 10px #a7a1a1;
-    margin-bottom: 38px;
-    cursor: pointer;
-}
-.nddlg:hover
-{
-    Transform: scale(1.01);
-}
-.pl
-{
-    display: flex;
-    flex-wrap: wrap;
-    border: transparent;
-    width: 100%;
-    height: 45%;
-    border-radius: 1.25rem;
-    box-shadow: 0px 0px 10px #a7a1a1;
-    cursor: pointer;
-}
-.pl:hover
+.carte_activites:hover, .carte_activites2:hover
 {
     Transform: scale(1.01);
 }
@@ -645,7 +558,7 @@ footer
     background-color: #f2f2f2F2;
     padding: 2%;
 }
-.apropos, .logement, .help
+.footer_carte
 {
     width: 30%;
     display: flex;
@@ -653,7 +566,7 @@ footer
     flex-direction: column;
     align-content: flex-start;
 }
-.apropos_titre, .logement_titre, .help_titre
+.footer_titre
 {
     display: flex;
     align-items: center;

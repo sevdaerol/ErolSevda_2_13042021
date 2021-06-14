@@ -47,10 +47,6 @@
     {
         flex-wrap: wrap;
     }
-    .HebActMenu
-    {
-        flex-wrap: wrap;
-    }
     .section_filtres
     {
         flex-direction: column;
@@ -102,7 +98,7 @@
     {
         justify-content: space-between;
     }
-   .apropos, .logement, .help
+   .footer_carte
     {
         display: flex;
         flex-wrap: wrap;
@@ -120,15 +116,18 @@
     {
         display: flex;
         position: absolute;
-        margin-top: 15%;
         font-size: 100%;
         width: 100%;
-        justify-content: space-around;
         border-bottom: 2px solid #f2f2f2;
+        align-items: flex-end;
     }
     .HebActMenu:hover
     {
         border-top: none;   
+    }
+    .hebergements_menu
+    {
+        margin-top: 20%;
     }
     .hebergements_menu:hover
     {
@@ -140,9 +139,9 @@
         border-bottom: 2px solid #0065FC;
         border-top: none;
     }
-    .soustitres
+    .menu 
     {
-        margin-top: 20%;
+        width: 50%;
     }
     .boutonrechercher
     {
@@ -207,22 +206,22 @@
     #activites
     {
          height: 100%;
+         width: 100%;
     }
     .elements_activites
     {
         flex-direction: column;
         height: 100%;
     }
-    .vp, .pndc
+    .carte_activites
     {
         width: auto;
-        height: 190px;
     }
-    .imgvp, .imgpndc
+    .carteAct_media
     {
-        height: 130px;
+        margin-bottom: 38px;
     }
-    .conteneur_fdpidf, .conteneur_nddlgpl
+    .conteneur_elements
     {
         flex-wrap: nowrap;
         width: auto;
@@ -230,11 +229,7 @@
         margin-top: 10%;
         margin-bottom: 10%;
     }
-    .fdp, .idf, .nddlg, .pl 
-    {
-        height: 190px;
-    }
-    .imgfdp, .imgidf, .imgnddlg, .imgpl
+    .imgfdp, .imgidf, .img_carteactivites2, .img_carteactivites
     {
         height: 130px;
     }
